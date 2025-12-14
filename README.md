@@ -7,6 +7,9 @@ This project's goal is to train a machine learning model on **natural language i
 * **Live demo**: https://huggingface.co/spaces/fabiocigaina/nli-fever-demo
 * **Model on Hugging Face**: https://huggingface.co/fabiocigaina/deberta-v3-base-nli-fever-pietrolesci
 
+## Demo
+![Demo](assets/demo_screenshot.png)
+
 ## Dataset
 I used Pietro Lesci's NLI FEVER dataset, derived from FEVER: https://huggingface.co/datasets/pietrolesci/nli_fever
 
@@ -15,6 +18,8 @@ I used Pietro Lesci's NLI FEVER dataset, derived from FEVER: https://huggingface
 - F1 macro: `0.754`
 
 ## Repo structure
+├── assets/  
+│   └── demo_screenshot.png  
 ├── nli_fever.ipynb # EDA, training, evaluation, analysis  
 ├── requirements.txt # for the notebook  
 └── README.md  
