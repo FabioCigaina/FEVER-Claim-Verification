@@ -15,6 +15,6 @@ I used Pietro Lesci's NLI FEVER dataset, derived from FEVER: https://huggingface
 - F1 macro: `0.754`
 
 ## Repo structure
-├── nli_fever.ipynb/ # EDA, training, evaluation, analysis  
+├── nli_fever.ipynb # EDA, training, evaluation, analysis  
 ├── requirements.txt # for the notebook  
 └── README.md  
